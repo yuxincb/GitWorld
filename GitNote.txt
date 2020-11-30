@@ -1,0 +1,35 @@
+初始化版本库
+git init
+
+把当前目录下所有文件添加到暂存区
+git add .
+
+把暂存区文件提交到当前分支
+git commit -m "init the repository"
+
+查看git状态
+git status
+
+查看文件差异
+git diff hello.txt
+
+查看版本库和工作区文件差异
+git diff HEAD -- hello.txt
+
+版本历史
+git log
+
+单行显示版本历史
+git log --pretty=oneline
+
+操作历史
+git reflog
+
+回滚到上一版本
+git reset --hard HEAD^
+
+回滚到指定版本
+git reset --hard 650d
+
+丢弃工作区修改
+git checkout -- hello.txt
