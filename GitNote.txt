@@ -33,3 +33,12 @@ git reset --hard 650d
 
 丢弃工作区修改
 git checkout -- hello.txt
+
+与Github远程库关联
+git remote add origin git@github.com:yuxincb/GitWorld.git
+
+第一次推送master分支的所有内容
+git push -u origin master
+
+推送修改
+git push origin master
