@@ -42,3 +42,6 @@ git push -u origin master
 
 推送修改
 git push origin master
+
+从远程克隆一个本地库
+git clone git@github.com:yuxincb/GitWorld.git
