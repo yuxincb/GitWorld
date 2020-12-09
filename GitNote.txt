@@ -1,3 +1,5 @@
+---本地---
+
 初始化版本库
 git init
 
@@ -34,6 +36,8 @@ git reset --hard 650d
 丢弃工作区修改
 git checkout -- hello.txt
 
+---远程---
+
 与Github远程库关联
 git remote add origin git@github.com:yuxincb/GitWorld.git
 
@@ -45,3 +49,25 @@ git push origin master
 
 从远程克隆一个本地库
 git clone git@github.com:yuxincb/GitWorld.git
+
+---分支---
+
+创建并切换到dev分支
+git switch -c dev
+git checkout -b dev
+
+创建dev分支
+git branch dev
+
+切换到dev分支
+git switch dev
+git checkout dev
+
+查看当前分支
+git branch
+
+把dev分支合并到当前分支
+git merge dev
+
+删除dev分支
+git branch -d dev
