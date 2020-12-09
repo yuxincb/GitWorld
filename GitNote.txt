@@ -24,6 +24,9 @@ git log
 单行显示版本历史
 git log --pretty=oneline
 
+显示版本历史图表
+git log --graph --pretty=oneline --abbrev-commit
+
 操作历史
 git reflog
 
